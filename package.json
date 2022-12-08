@@ -1,0 +1,24 @@
+{
+    "name": "discordbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Khiem",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.20.0",
+        "canvas": "^2.10.2",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security",
+        "moment": "^2.27.0",
+        "mongoose": "^5.9.19",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.3",
+        "nodemon": "^2.0.20"
+    }
+}
