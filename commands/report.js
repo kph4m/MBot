@@ -9,6 +9,7 @@ mongoose.connect('mongodb://localhost:27017/reports')
 
 mongoose.connect(`${process.env.MONGO_URL}`, {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
 });
 
 module.exports.run = async (bot, message, args) => {

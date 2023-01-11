@@ -10,6 +10,7 @@ mongoose.connect('mongodb://localhost:27017/Profile', {
 
 mongoose.connect(`${process.env.MONGO_URL}`, {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
 });
 const fs = require("fs");
 const Profile = require("../models/profile.js");
